@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"bootstrap": "bun install.ts",
+		"lint": "bunx @biomejs/biome check --apply ."
+	},
+	"devDependencies": {
+		"bun-types": "^1.1.2"
+	}
+}
